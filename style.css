@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
-body {
+.container {
   background-color: rgb(21, 21, 21);
   color: white;
   font-family: "Space Grotesk", sans-serif;
+  max-width: 1000px;
+  margin: auto;
 }
 
 main {
