@@ -13,9 +13,13 @@ body {
   font-size: 1.45rem;
 }
 
+/* main {
+  max-width: 100vw;
+  overflow: hidden;
+} */
+
 header {
-  height: 60px;
-  background-color: red;
+  height: 105px;
 }
 
 #container {
@@ -28,7 +32,6 @@ header {
 
 #navigation-links {
   width: 400px;
-  background-color: blue;
 }
 ul {
   display: flex;
@@ -38,5 +41,8 @@ ul {
 }
 
 #contact-links {
-  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  width: 350px;
 }
