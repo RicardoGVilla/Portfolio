@@ -48,15 +48,46 @@ ul {
 }
 
 .hero-section {
-  background-color: rgb(165, 73, 73);
-  height: 1100px;
+  /* background-color: rgb(165, 73, 73); */
+  height: 1120px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .content-container {
-  background-color: yellow;
+  background-color: black;
   height: 600px;
-  width: 600px;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.content-container {
+  display: flex;
+}
+
+#role p {
+  font-size: 1.4rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.9;
+  color: white;
+}
+
+.contact-btn {
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-align: center;
+  height: 40px;
+  min-width: 160px;
+  max-width: 200px;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  border: 1px solid white;
 }
