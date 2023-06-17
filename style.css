@@ -56,7 +56,7 @@ ul {
 }
 
 .content-container {
-  background-color: black;
+  /* background-color: black; */
   height: 600px;
 }
 
@@ -90,4 +90,25 @@ img {
   padding: 10px;
   color: white;
   border: 1px solid white;
+}
+
+.name-wrapper {
+  /* background-color: aqua; */
+  text-align: center;
+}
+
+.role {
+  text-align: center;
+}
+
+#greetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(169, 169, 132); */
+}
+
+#container-buttons {
+  display: flex;
 }
