@@ -1,3 +1,5 @@
+/* General formatting */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,16 +15,13 @@ body {
   font-size: 1.45rem;
 }
 
-/* main {
-  max-width: 100vw;
-  overflow: hidden;
-} */
-
 header {
   height: 105px;
 }
 
-#container {
+/* Navbar Section of the Proejct */
+
+#links-container {
   display: flex;
   justify-content: space-between;
   padding: 0;
@@ -33,6 +32,7 @@ header {
 #navigation-links {
   width: 400px;
 }
+
 ul {
   display: flex;
   list-style: none;
@@ -47,26 +47,26 @@ ul {
   width: 350px;
 }
 
+/* Hero Section of the Project */
+
 .hero-section {
   /* background-color: rgb(165, 73, 73); */
-  height: 1120px;
+  height: 1237px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .content-container {
-  /* background-color: black; */
+  /* background-color: rgb(222, 171, 171); */
   height: 600px;
+  display: flex;
 }
 
 img {
   max-height: 100%;
   max-width: 100%;
-}
-
-.content-container {
-  display: flex;
+  /* padding: 0; */
 }
 
 #role p {
@@ -95,10 +95,12 @@ img {
 .name-wrapper {
   /* background-color: aqua; */
   text-align: center;
+  font-size: 22.5px;
 }
 
 .role {
   text-align: center;
+  padding-top: 5px;
 }
 
 #greetings {
@@ -107,8 +109,27 @@ img {
   justify-content: center;
   align-items: center;
   /* background-color: rgb(169, 169, 132); */
+  width: 100%;
+  flex-basis: 50%;
+  flex-grow: 0;
+  padding-bottom: 215px;
 }
 
 #container-buttons {
   display: flex;
+}
+
+.navigation-links {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-links:hover {
+  text-shadow: 1px 0 0 var(--main-text-color);
+  color: rgb(158, 157, 157);
+}
+
+.profile-picture {
+  flex-basis: 50%;
+  flex-grow: 0;
 }
