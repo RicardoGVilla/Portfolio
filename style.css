@@ -204,8 +204,10 @@ section h3 {
 section #about-description p {
   line-height: 1.8;
   font-size: 1.7rem;
-  text-align: justify;
+  text-align: center;
 }
+
+/* Skill Section */
 
 #skills-section {
   height: 610px;
@@ -221,17 +223,31 @@ section #about-description p {
   margin: auto;
 }
 
+.skill-container {
+  border: solid 2px red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #skill {
   fill: white;
   cursor: pointer;
+  border: solid 2px red;
+  width: 100%;
 }
 
-#skills-section > div > a:hover {
+#skills-section > div > div:hover a {
   transform: scale(1.5);
-  fill: red;
   color: red;
 }
 
-#skills-section > div > a:hover svg {
+#skill:hover {
   fill: red;
+}
+
+.skill-container p {
+  border: solid 1px rgb(0, 255, 42);
+  align-items: center;
+  letter-spacing: 1.5px;
 }
