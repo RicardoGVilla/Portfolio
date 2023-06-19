@@ -223,4 +223,15 @@ section #about-description p {
 
 #skill {
   fill: white;
+  cursor: pointer;
+}
+
+#skills-section > div > a:hover {
+  transform: scale(1.5);
+  fill: red;
+  color: red;
+}
+
+#skills-section > div > a:hover svg {
+  fill: red;
 }
