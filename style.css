@@ -211,3 +211,16 @@ section #about-description p {
   height: 610px;
   background-color: rgb(47, 47, 47);
 }
+.container-skills {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
+}
+
+#skill {
+  fill: white;
+}
