@@ -141,20 +141,13 @@ img {
 }
 
 .hero-section-bottom {
-  /* background-color: bisque; */
   position: absolute;
   bottom: 40px;
   right: 700px;
 }
 
 .arrow-down {
-  /* font-size: 4rem; */
   cursor: pointer;
-  /* position: absolute; */
-  /* right: 5rem; */
-  /* bottom: 8rem;
-  width: 40px; */
-  /* height: 40px; */
   animation: bounce 2s infinite;
   color: var(--light);
   opacity: 0.8;
@@ -183,11 +176,7 @@ img {
   /* background-color: aquamarine; */
 }
 
-#about-description {
-  /* background-color: rgb(158, 157, 157); */
-}
-
-section h3 {
+h3 {
   font-family: "Oswald", sans-serif;
   letter-spacing: 1.1px;
   display: flex;
@@ -210,57 +199,110 @@ section #about-description p {
 /* Skill Section */
 
 #skills-section {
+  height: 800px;
+  width: 100%;
+  background-color: #1c1c1b;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.grid-cell svg {
+  fill: white;
+  transition: transform 0.3s ease;
+}
+
+.grid-cell:hover svg {
+  fill: red;
+  transform: scale(1.6);
+}
+
+.grid-cell p {
+  padding-top: 18px;
+  margin: 10px auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: opacity 0.3s ease;
+  opacity: -1;
+  white-space: nowrap;
+}
+
+.grid-cell:hover p {
+  color: red;
+  opacity: 1;
+}
+
+#python:hover {
+  fill: red;
+}
+
+/* #skills-section {
   height: 610px;
   background-color: rgb(47, 47, 47);
+  margin: 8rem auto;
+  position: relative;
 }
 .container-skills {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 150px);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px;
   align-items: center;
   justify-content: center;
   justify-items: center;
   margin: auto;
+  border: 2px solid red;
 }
 
 .skill-container {
-  /* border: solid 2px red; */
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 1px solid red;
 }
 
 #skill {
   fill: white;
   cursor: pointer;
-  /* border: solid 2px red; */
-  width: 100%;
-}
-
-#skills-section > div > div:hover a {
-  transform: scale(1.5);
-  color: red;
+  width: 100px;
+  height: 100px;
+  border: 1px red solid;
 }
 
 #skill:hover {
+  transform: scale(1.7);
+  color: red;
   fill: red;
 }
 
-.skill-container p {
-  /* border: solid 1px rgb(0, 255, 42); */
-  align-items: center;
-  letter-spacing: 1.5px;
+#skill + p {
+  text-align: center;
+  transition: all 0.1s ease;
+  margin: 10px auto;
+  opacity: 0;
 }
 
-#python {
-  fill: rgb(255, 255, 255) !important;
-}
-
-#python:hover {
-  fill: red !important;
+#skill:hover + p {
+  color: red;
+  opacity: 1;
+  margin: 10px auto;
+  background-color: orange;
 }
 
 #project-section {
   height: 610px;
   background-color: aqua;
 }
+
+#python:hover {
+  fill: red;
+} */
