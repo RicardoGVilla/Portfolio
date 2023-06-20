@@ -224,7 +224,7 @@ section #about-description p {
 }
 
 .skill-container {
-  border: solid 2px red;
+  /* border: solid 2px red; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -233,7 +233,7 @@ section #about-description p {
 #skill {
   fill: white;
   cursor: pointer;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   width: 100%;
 }
 
@@ -247,7 +247,15 @@ section #about-description p {
 }
 
 .skill-container p {
-  border: solid 1px rgb(0, 255, 42);
+  /* border: solid 1px rgb(0, 255, 42); */
   align-items: center;
   letter-spacing: 1.5px;
+}
+
+#python {
+  fill: rgb(255, 255, 255) !important;
+}
+
+#python:hover {
+  fill: red !important;
 }
