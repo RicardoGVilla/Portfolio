@@ -259,3 +259,8 @@ section #about-description p {
 #python:hover {
   fill: red !important;
 }
+
+#project-section {
+  height: 610px;
+  background-color: aqua;
+}
