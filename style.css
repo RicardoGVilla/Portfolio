@@ -341,7 +341,7 @@ section #about-description p {
 }
 
 .btn:hover::after {
-  transform: translateX(5px); /* Adjust the translateX value as needed */
+  transform: translateX(5px);
 }
 
 .btn-source {
