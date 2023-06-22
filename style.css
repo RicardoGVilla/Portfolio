@@ -49,7 +49,6 @@ ul {
 
 #contact-links:hover svg {
   fill: rgb(171 66 66);
-
 }
 
 /* Hero Section of the Project */
@@ -314,19 +313,42 @@ section #about-description p {
 
 .sources {
   display: flex;
-  gap: 5rem;
+  gap: 8rem;
   position: relative;
 }
 
-.sources ::after {
+.btn-container {
+  position: relative;
+}
+
+.btn-container:hover {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.btn::after {
   content: "⟶";
   font-size: 2rem;
   position: absolute;
   padding-left: 17px;
-  top: -10px;
-  /* transition: transform 0.2s ease; */ */
+  top: -3px;
+  color: white; /* Default color of the arrow */
+  transition: transform 0.2s ease;
+}
+
+.btn {
+  padding: 5px;
+}
+
+.btn:hover::after {
+  transform: translateX(5px); /* Adjust the translateX value as needed */
 }
 
 .btn-source {
   font-size: 26px;
+}
+
+.sources a {
+  text-decoration: none;
+  color: white;
 }
