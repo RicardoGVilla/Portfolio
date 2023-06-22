@@ -252,26 +252,28 @@ section #about-description p {
 }
 
 #python:hover {
-  fill: rgb(45, 67, 132);
+  fill: rgb(171 66 66);
 }
 /* Project Section */
 #project-section {
-  height: 810px;
-  background-color: orange;
+  height: 1500px;
+  /* background-color: orange; */
+  padding-bottom: 20px;
 }
 .projects-container {
   display: flex;
-  background-color: white;
-  height: 800px;
+  height: 100%;
   flex-direction: column;
   padding: 0.5rem 4rem;
 }
 .project {
   display: flex;
-  background-color: aqua;
-  height: 300px;
+  /* background-color: aqua; */
+  height: 375px;
   align-items: center;
   gap: 3rem;
+  border-bottom: 2px solid white;
+  padding-bottom: 25px;
 }
 .project-preview {
   object-fit: cover;
@@ -280,12 +282,12 @@ section #about-description p {
 }
 
 .container-info {
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
   height: 70%;
 }
 .header {
-  font-size: 24px;
+  font-size: 32px;
   color: white;
   padding: 0px 0px 12px;
 }
@@ -298,9 +300,28 @@ section #about-description p {
 
 .tag {
   color: white;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   border-radius: 50px;
-  padding: 0.3rem 0.6rem;
-  background-color: orange;
+  padding: 0.4rem 0.6rem;
+  background-color: rgb(171 66 66);
   box-shadow: var(--small-box-shadow);
+}
+
+.sources {
+  display: flex;
+  gap: 5rem;
+  position: relative;
+}
+
+.sources ::after {
+  content: "⟶";
+  font-size: 2rem;
+  position: absolute;
+  padding-left: 17px;
+  top: -10px;
+  /* transition: transform 0.2s ease; */ */
+}
+
+.btn-source {
+  font-size: 26px;
 }
