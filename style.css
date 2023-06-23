@@ -388,7 +388,7 @@ section #about-description p {
   display: flex;
   justify-content: center;
   align-items: start;
-  /* background-color: red; */
+  background-color: var(--grey-color);
   flex-basis: 50%;
   padding: 45px;
 }
@@ -397,7 +397,8 @@ form {
   display: flex;
   flex-direction: column;
   width: 500px;
-  height: 380px;
+  height: 500px;
+  background-color: var(--grey-color);
   background-color: var(--grey-color);
 }
 
@@ -410,9 +411,12 @@ form .button {
   padding: 20px;
   background-color: var(--grey-color);
   border-bottom: solid white 1.5px;
+  margin-left: 3px;
 }
 .input-box label {
   background-color: var(--grey-color);
+  color: #9b9999;
+  font-size: 18px;
 }
 
 .input-box #input {
@@ -422,38 +426,45 @@ form .button {
   color: white;
   font-size: 1.35rem;
   border: none;
+  outline: none;
 }
 
 #message {
   padding-left: 20px;
-  border: none;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #9b9999;
+  font-size: 18px;
 }
 
 textarea {
   background-color: var(--grey-color);
-  height: 600px;
   color: white;
   font-size: 1.35rem;
+  border: none;
   border-bottom: solid white 1.5px;
 }
 
 .submit-button {
-  padding: 15px;
-  width: 200px;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  width: 160px;
   color: white;
   font-weight: bold;
   background-color: var(--grey-color);
   border-bottom: solid var(--secondary-color);
   font-size: 1.25rem;
   text-align: end;
-  padding-left: 0px;
   border: none;
+  border-bottom: solid 2px var(--secondary-color);
 }
 
 #submit-section {
-  background-color: purple;
   display: flex;
   margin-left: auto;
+  background-color: orange;
 }
 /* footer section */
 footer {
