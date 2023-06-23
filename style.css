@@ -1,6 +1,7 @@
 :root {
   --primary-color: rgb(21, 21, 21);
   --secondary-color: rgb(44, 98, 142);
+  --grey-color: #1c1c1b;
 }
 
 /* General formatting */
@@ -217,7 +218,7 @@ section #about-description p {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
   margin: 8rem auto;
-  background-color: #1c1c1b;
+  background-color: var(--grey-color);
   padding: 30px;
 }
 
@@ -265,9 +266,9 @@ section #about-description p {
   fill: var(--secondary-color);
 }
 /* Project Section */
+
 #project-section {
   height: 1800px;
-  /* background-color: orange; */
   padding-bottom: 20px;
 }
 .projects-container {
@@ -278,7 +279,6 @@ section #about-description p {
 }
 .project {
   display: flex;
-  /* background-color: aqua; */
   height: 375px;
   align-items: center;
   gap: 3rem;
@@ -292,7 +292,6 @@ section #about-description p {
 }
 
 .container-info {
-  /* background-color: red; */
   width: 100%;
   height: 70%;
 }
@@ -359,6 +358,103 @@ section #about-description p {
   color: white;
 }
 
+/* Contact Me Section */
+
+.contact-section {
+  height: 700px;
+  background-color: var(--grey-color);
+  display: flex;
+}
+
+.contact-description {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-description h3 {
+  color: white;
+}
+
+.contact-description p {
+  line-height: 1.8;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  /* background-color: red; */
+  flex-basis: 50%;
+  padding: 45px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 380px;
+  background-color: var(--grey-color);
+}
+
+form .button {
+  width: 200px;
+  margin-left: auto;
+}
+
+.input-box {
+  padding: 20px;
+  background-color: var(--grey-color);
+  border-bottom: solid white 1.5px;
+}
+.input-box label {
+  background-color: var(--grey-color);
+}
+
+.input-box #input {
+  background-color: var(--grey-color);
+  width: 380px;
+  height: 30px;
+  color: white;
+  font-size: 1.35rem;
+  border: none;
+}
+
+#message {
+  padding-left: 20px;
+  border: none;
+}
+
+textarea {
+  background-color: var(--grey-color);
+  height: 600px;
+  color: white;
+  font-size: 1.35rem;
+  border-bottom: solid white 1.5px;
+}
+
+.submit-button {
+  padding: 15px;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  background-color: var(--grey-color);
+  border-bottom: solid var(--secondary-color);
+  font-size: 1.25rem;
+  text-align: end;
+  padding-left: 0px;
+  border: none;
+}
+
+#submit-section {
+  background-color: purple;
+  display: flex;
+  margin-left: auto;
+}
 /* footer section */
 footer {
   height: 200px;
