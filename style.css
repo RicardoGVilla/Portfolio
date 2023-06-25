@@ -370,18 +370,25 @@ section #about-description p {
   display: flex;
   flex-direction: column;
   flex-basis: 50%;
-  justify-content: flex-start;
-  align-items: center;
+  background-color: var(--grey-color);
+  padding-left: 80px;
 }
 
 .contact-description h3 {
   color: white;
+  background-color: var(--grey-color);
+  width: 500px;
+  justify-content: left;
+  margin-right: auto;
+  font-size: 53px;
 }
 
 .contact-description p {
   line-height: 1.8;
   font-size: 1.5rem;
-  text-align: center;
+  text-align: left;
+  background-color: var(--grey-color);
+  width: 568px;
 }
 
 .contact-form {
@@ -408,7 +415,7 @@ form .button {
 }
 
 .input-box {
-  padding: 20px;
+  padding: 15px;
   background-color: var(--grey-color);
   border-bottom: solid white 1.5px;
   margin-left: 3px;
@@ -422,11 +429,21 @@ form .button {
 .input-box #input {
   background-color: var(--grey-color);
   width: 380px;
-  height: 30px;
+  height: 20px;
   color: white;
   font-size: 1.35rem;
   border: none;
   outline: none;
+  margin-left: 15px;
+}
+
+#message-label {
+  padding-left: 20px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: #9b9999;
+  font-size: 18px;
 }
 
 #message {
@@ -434,7 +451,7 @@ form .button {
   padding-top: 25px;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  color: #9b9999;
+  color: white;
   font-size: 18px;
 }
 
@@ -459,6 +476,7 @@ textarea {
   text-align: end;
   border: none;
   border-bottom: solid 2px var(--secondary-color);
+  cursor: pointer;
 }
 
 #submit-section {
