@@ -289,11 +289,19 @@ section #about-description p {
   object-fit: cover;
   padding: 5px 0px 5px 5px;
   border-radius: 50px;
+  width: 100%;
+  height: 100%;
+}
+.image-container {
+  flex: 1;
+  height: 100%;
+  width: 100%;
 }
 
 .container-info {
   width: 100%;
   height: 70%;
+  flex: 1;
 }
 .header {
   font-size: 32px;
