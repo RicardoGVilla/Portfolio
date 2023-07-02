@@ -519,25 +519,15 @@ footer {
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* Styles for tablet screens */
   body {
-    max-width: 40%;
-    font-size: 0.95rem;
-    color: red;
-    margin: 0 0;
-    cursor: default;
-  }
-
-  header {
-    height: 25px;
-    background-color: blue;
-  }
-
-  .hero-section {
-    height: 875px;
+    background-color: yellow;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .content-container {
-    display: block;
+  main {
+    max-width: 80%;
+    background-color: rgb(0, 242, 255);
+    margin: auto;
   }
 }
