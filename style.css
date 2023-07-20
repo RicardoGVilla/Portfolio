@@ -550,7 +550,7 @@ footer {
   }
 
   .hero-section {
-    height: 90vh;
+    height: 80vh;
     display: flex;
   }
   img {
@@ -602,6 +602,13 @@ footer {
     height: 320px;
   }
 
+  #project-section {
+    height: 1550px;
+  }
+  .projects-container {
+    /* background-color: red; */
+  }
+
   .image-container {
     /* background-color: red; */
   }
@@ -610,4 +617,20 @@ footer {
     /* background-color: blue; */
     min-width: 100%;
   }
+
+  /* Contact section */
+  .contact-section {
+    display: block;
+  }
+
+  .contact-description {
+    padding-left: 50px;
+  }
+
+  form {
+    height: 0px;
+    flex: auto;
+  }
+
+  /* Fix the spaxing between title such as About. Decrease font size on contact form. Style form better */
 }
