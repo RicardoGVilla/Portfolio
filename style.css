@@ -596,4 +596,18 @@ footer {
   #skills-section {
     margin: 0;
   }
+
+  .project {
+    /* background-color: orange; */
+    height: 320px;
+  }
+
+  .image-container {
+    /* background-color: red; */
+  }
+
+  .project-preview {
+    /* background-color: blue; */
+    min-width: 100%;
+  }
 }
