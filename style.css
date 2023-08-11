@@ -559,9 +559,80 @@ footer {
     background-color: orange;
   }
 
+  .profile-picture {
+    flex-basis: 40%;
+    flex-grow: 0;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   img {
     max-height: 100%;
-    width: 85vh;
+    width: 80%;
+  }
+
+  .name-wrapper h1 {
+    font-size: 20.5px;
+  }
+
+  #role p {
+    font-size: 1.4rem;
+    margin: 0 0 2rem 0;
+    opacity: 0.9;
+    color: white;
+    padding-top: 7px;
+  }
+
+  .contact-btn {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    color: white;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+  }
+
+  #container-buttons {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section #about-description p {
+    line-height: 1.8;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 70vh;
+    background-color: orange;
+  }
+
+  section #about-description p {
+    line-height: 2.6;
+    font-size: 1.1rem;
+    text-align: center;
+    height: 100vh;
+  }
+
+  h3 {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 1.1px;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+    color: var(--light);
+    justify-content: center;
+    font-size: 1.8em;
+    font-stretch: expanded;
+    color: var(--secondary-color);
   }
 }
 
