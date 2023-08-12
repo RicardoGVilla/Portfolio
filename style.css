@@ -535,7 +535,7 @@ footer {
   }
 
   main {
-    background-color: blue;
+    /* background-color: blue; */
     margin: 0;
     width: 100vw;
     box-sizing: border-box;
@@ -607,12 +607,16 @@ footer {
     align-items: center;
   }
 
+  #about {
+    height: 100vh;
+    background-color: purple;
+  }
+
   section #about-description p {
     line-height: 1.8;
     font-size: 1.1rem;
     text-align: center;
     height: 70vh;
-    background-color: orange;
   }
 
   section #about-description p {
@@ -620,6 +624,7 @@ footer {
     font-size: 1.1rem;
     text-align: center;
     height: 100vh;
+    padding: 12px;
   }
 
   h3 {
@@ -633,6 +638,9 @@ footer {
     font-size: 1.8em;
     font-stretch: expanded;
     color: var(--secondary-color);
+    margin-bottom: 0rem;
+    padding-top: 0px;
+    background-color: violet;
   }
 }
 
