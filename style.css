@@ -56,6 +56,10 @@ ul {
   width: 350px;
 }
 
+#contact-links-mobile {
+  display: none;
+}
+
 .logo-link:hover svg path {
   fill: var(--secondary-color);
 }
@@ -532,6 +536,21 @@ footer {
     height: 10vh;
     /* background-color: green; */
     width: 100vw;
+  }
+
+  #contact-links {
+    display: none;
+  }
+  #contact-links-mobile {
+    display: block;
+    background-color: orange;
+    padding-top: 25%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10%;
+    height: 25vh;
+    margin-top: 25%;
   }
 
   main {
