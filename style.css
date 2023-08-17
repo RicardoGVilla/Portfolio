@@ -504,6 +504,7 @@ footer {
 }
 
 .footer-container {
+  display: none;
   justify-content: flex-end;
   border-top: 1px solid white;
 }
@@ -523,7 +524,7 @@ footer {
   padding: 9px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 540px) {
   /* Styles for screens up to 576px width */
   body {
     margin: 0;
@@ -773,7 +774,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 577px) and (max-width: 1024px) {
+@media screen and (min-width: 545px) and (max-width: 1024px) {
   /* Styles for tablet-sized screens */
 
   body {
@@ -1023,7 +1024,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
   #about {
     height: 120vh;
     /* background-color: purple; */
@@ -1052,6 +1053,14 @@ footer {
     align-items: center;
     flex-direction: column;
     width: 100vw;
+  }
+
+  .footer-container {
+    width: 100%;
+    height: 100%;
+    padding-top: 14%;
+    padding-left: 4%;
+    display: block;
   }
 }
 
