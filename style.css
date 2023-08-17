@@ -933,6 +933,19 @@ footer {
     padding-top: 10%;
   }
 
+  .grid-cell svg {
+    fill: white;
+    transition: transform 0.4s ease;
+    height: 80%;
+    width: 80%;
+  }
+
+  .grid-cell:hover svg {
+    fill: var(--secondary-color);
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+
   #skills-section {
     margin-top: 5%;
     background-color: #1c1c1b;
@@ -954,7 +967,7 @@ footer {
     position: relative;
     width: 100%;
     /* background-color: blue; */
-    padding: 7%;
+    padding: 10%;
   }
 
   #project-section {
@@ -1053,6 +1066,24 @@ footer {
     align-items: center;
     flex-direction: column;
     width: 100vw;
+  }
+
+  .grid-cell svg {
+    fill: white;
+    transition: transform 0.4s ease;
+    height: 80%;
+    width: 80%;
+  }
+
+  .grid-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 10%;
   }
 
   .footer-container {
