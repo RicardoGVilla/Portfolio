@@ -952,7 +952,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #333331;
-    padding: 30px;
+    padding: 5%;
     height: 95%;
     margin: 0;
     width: 100%;
@@ -968,6 +968,18 @@ footer {
     width: 100%;
     /* background-color: blue; */
     padding: 10%;
+  }
+
+  .grid-cell p {
+    padding-top: 17px;
+    margin: 10px auto;
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: opacity 0.1s ease;
+    opacity: -1;
+    white-space: nowrap;
   }
 
   #project-section {
@@ -1071,8 +1083,8 @@ footer {
   .grid-cell svg {
     fill: white;
     transition: transform 0.4s ease;
-    height: 80%;
-    width: 80%;
+    height: 58%;
+    width: 68%;
   }
 
   .grid-cell {
@@ -1110,7 +1122,7 @@ footer {
     color: var(--secondary-color);
     opacity: 1;
     font-family: "Quattrocento Sans", sans-serif;
-    font-size: 1.15rem;
+    font-size: 1rem;
   }
 }
 
