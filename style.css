@@ -458,6 +458,16 @@ form .button {
   font-size: 18px;
 }
 
+#name {
+  background-color: var(--grey-color);
+  border: none;
+}
+
+#email {
+  background-color: var(--grey-color);
+  border: none;
+}
+
 #message {
   padding-left: 20px;
   padding-top: 25px;
