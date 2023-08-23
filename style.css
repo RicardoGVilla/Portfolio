@@ -461,11 +461,27 @@ form .button {
 #name {
   background-color: var(--grey-color);
   border: none;
+  width: 70%;
+  height: 100%;
+  color: white;
+  font-size: 18px;
+}
+
+label {
+  padding-right: 12px;
+}
+
+input {
+  padding-left: 10px;
 }
 
 #email {
   background-color: var(--grey-color);
   border: none;
+  width: 70%;
+  height: 100%;
+  color: white;
+  font-size: 18px;
 }
 
 #message {
