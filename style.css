@@ -103,6 +103,7 @@ img {
   border: 1px solid white;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .contact-btn:hover {
