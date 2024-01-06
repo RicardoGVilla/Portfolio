@@ -36,7 +36,7 @@ header {
   align-items: center;
   height: 100%;
   padding-left: 15px;
-  background-color: green;
+  /* background-color: green; */
 }
 
 #navigation-links {
