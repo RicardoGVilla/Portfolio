@@ -25,7 +25,7 @@ header {
   height: 105px;
 }
 
-/* Navbar Section of the Proejct */
+/* Navbar Section of the Project */
 
 #links-container {
   position: relative;
@@ -36,6 +36,7 @@ header {
   align-items: center;
   height: 100%;
   padding-left: 15px;
+  background-color: green;
 }
 
 #navigation-links {
@@ -63,6 +64,8 @@ ul {
 .logo-link:hover svg path {
   fill: var(--secondary-color);
 }
+
+
 /* Hero Section of the Project */
 
 .hero-section {
@@ -186,10 +189,9 @@ img {
   }
 }
 
-/* About Section of the prohect */
+/* About Section */
 #about-section {
   height: 610px;
-  /* background-color: aquamarine; */
 }
 
 h3 {
@@ -270,7 +272,9 @@ section #about-description p {
 #python:hover {
   fill: var(--secondary-color);
 }
-/* Project Section */
+
+
+/* Projects Section */
 
 #project-section {
   height: 1800px;
@@ -350,7 +354,7 @@ section #about-description p {
   position: absolute;
   padding-left: 17px;
   top: -3px;
-  color: white; /* Default color of the arrow */
+  color: white; 
   transition: transform 0.2s ease;
 }
 
@@ -523,6 +527,8 @@ textarea {
   margin-left: auto;
   background-color: orange;
 }
+
+
 /* footer section */
 footer {
   height: 200px;
@@ -535,10 +541,6 @@ footer {
   justify-content: flex-end;
   border-top: 1px solid white;
 }
-
-/* .contact-info-header {
-  display: none;
-} */
 
 .contact-me {
   background-color: var(--primary-color);
@@ -556,7 +558,6 @@ footer {
   body {
     margin: 0;
     font-size: 1.25rem;
-    /* background-color: rgb(0, 217, 255); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -566,7 +567,6 @@ footer {
 
   header {
     height: 10vh;
-    /* background-color: green; */
     width: 100vw;
   }
 
@@ -586,7 +586,6 @@ footer {
   }
 
   main {
-    /* background-color: blue; */
     margin: 0;
     width: 100vw;
     box-sizing: border-box;
@@ -610,13 +609,11 @@ footer {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    /* background-color: orange; */
   }
 
   .profile-picture {
     flex-basis: 40%;
     flex-grow: 0;
-    /* background-color: greenyellow; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -652,7 +649,6 @@ footer {
     border: 1px solid white;
     justify-content: center;
     align-items: center;
-    /* background-color: blue; */
   }
 
   #container-buttons {
@@ -663,7 +659,6 @@ footer {
 
   #about {
     height: 100vh;
-    /* background-color: purple; */
   }
 
   section #about-description p {
@@ -718,7 +713,6 @@ footer {
     height: 95%;
     margin: 0;
     width: 100%;
-    /* background-color: orange; */
   }
 
   .grid-cell {
@@ -728,7 +722,6 @@ footer {
     flex-direction: column;
     position: relative;
     width: 100%;
-    /* background-color: blue; */
     padding: 7%;
   }
 
@@ -746,7 +739,6 @@ footer {
     flex-direction: column;
     padding: 0.5rem 4rem;
     padding-bottom: 15%;
-    /* background-color: violet; */
   }
 
   .project {
@@ -785,7 +777,6 @@ footer {
   footer {
     height: 15vh;
     width: 100vw;
-    /* background-color: rgb(171, 56, 56); */
   }
   .footer-container {
     width: 100%;
@@ -807,7 +798,6 @@ footer {
   body {
     margin: 0;
     font-size: 1.25rem;
-    /* background-color: rgb(0, 217, 255); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -817,7 +807,6 @@ footer {
 
   header {
     height: 10vh;
-    /* background-color: green; */
     width: 100vw;
   }
 
@@ -837,7 +826,6 @@ footer {
   }
 
   main {
-    /* background-color: blue; */
     margin: 0;
     width: 100vw;
     box-sizing: border-box;
@@ -861,13 +849,11 @@ footer {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    /* background-color: orange; */
   }
 
   .profile-picture {
     flex-basis: 40%;
     flex-grow: 0;
-    /* background-color: greenyellow; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -904,7 +890,6 @@ footer {
     border: 1px solid white;
     justify-content: center;
     align-items: center;
-    /* background-color: blue; */
   }
 
   #container-buttons {
@@ -915,7 +900,6 @@ footer {
 
   #about {
     height: 50vh;
-    /* background-color: purple; */
   }
 
   section #about-description p {
@@ -983,7 +967,6 @@ footer {
     height: 95%;
     margin: 0;
     width: 100%;
-    /* background-color: orange; */
   }
 
   .grid-cell {
@@ -993,7 +976,6 @@ footer {
     flex-direction: column;
     position: relative;
     width: 100%;
-    /* background-color: blue; */
     padding: 10%;
   }
 
@@ -1023,7 +1005,6 @@ footer {
     flex-direction: column;
     padding: 0.5rem 4rem;
     padding-bottom: 15%;
-    /* background-color: violet; */
   }
 
   .project {
@@ -1062,7 +1043,6 @@ footer {
   footer {
     height: 40vh;
     width: 100vw;
-    /* background-color: rgb(171, 56, 56); */
   }
   .footer-container {
     width: 100%;
@@ -1079,7 +1059,6 @@ footer {
 @media screen and (max-width: 500px) {
   #about {
     height: 120vh;
-    /* background-color: purple; */
   }
 
   #project-section {
@@ -1099,7 +1078,6 @@ footer {
   body {
     margin: 0;
     font-size: 1.2rem;
-    /* background-color: rgb(0, 217, 255); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1121,7 +1099,6 @@ footer {
     flex-direction: column;
     position: relative;
     width: 100%;
-    /* background-color: blue; */
     padding: 10%;
   }
 
@@ -1134,14 +1111,11 @@ footer {
   }
 
   .grid-cell p {
-    /* padding-top: 18px; */
-    /* margin: 10px auto; */
     position: absolute;
     bottom: -34%;
     left: 50%;
     transform: translateX(-50%);
     transition: opacity 0.1s ease;
-    /* opacity: -1; */
     white-space: nowrap;
   }
 
