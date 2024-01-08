@@ -19,6 +19,8 @@ body {
   max-width: 1380px;
   margin: auto;
   font-size: 1.45rem;
+
+
 }
 
 header {
@@ -73,8 +75,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
 
 .content-container {
@@ -191,7 +191,7 @@ img {
 }
 
 /* About Section */
-#about-section {
+#about {
   height: 610px;
 
 }
@@ -207,8 +207,10 @@ h3 {
   font-size: 1.8em;
   font-stretch: expanded;
   margin-bottom: 3rem;
-  padding-top: 45px;
+  padding-top: 35px;
   color: var(--secondary-color);
+  /* background-color: red;  */
+
 }
 
 section #about-description p {
@@ -226,9 +228,11 @@ section #about-description p {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  margin: 8rem auto;
+  margin: 5rem auto;
   background-color: var(--grey-color);
   padding: 30px;
+  /* background-color: red;  */
+
 }
 
 .grid-cell {
@@ -682,7 +686,7 @@ footer {
   .skill-description {
     height: 100vh;
     width: 100vw;
-    background-color:orange;
+
   }
 
   h3 {
@@ -699,12 +703,14 @@ footer {
     color: var(--secondary-color);
     margin-bottom: 0rem;
     padding-top: 0px;
-    height: 7vh;
+    height: 5vh;
     width: 100%;
+
   }
   #skill-description h3 {
     background-color: #333331;
     padding-top: 10%;
+
   }
 
   #skills-section {
@@ -904,6 +910,7 @@ footer {
 
   #about {
     height: 50vh;
+
   }
 
   section #about-description p {
