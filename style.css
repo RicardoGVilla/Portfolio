@@ -231,7 +231,7 @@ section #about-description p {
   margin: 5rem auto;
   background-color: var(--grey-color);
   padding: 30px;
-  background-color: red; 
+  /* background-color: red;  */
 
 }
 
