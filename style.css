@@ -679,7 +679,8 @@ footer {
     line-height: 2.4;
     font-size: 1.1rem;
     text-align: center;
-    height: 95%;
+    height: 100%;
+    /* background-color: yellow; */
   }
 
   .skill-description {
