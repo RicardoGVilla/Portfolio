@@ -231,7 +231,7 @@ section #about-description p {
   margin: 5rem auto;
   background-color: var(--grey-color);
   padding: 30px;
-  /* background-color: red;  */
+  background-color: red; 
 
 }
 
@@ -680,7 +680,6 @@ footer {
     font-size: 1.1rem;
     text-align: center;
     height: 95%;
-    padding: 4%;
   }
 
   .skill-description {
