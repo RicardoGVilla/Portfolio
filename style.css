@@ -127,12 +127,17 @@ img {
 #greetings {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  flex-basis: 50%;
+  flex-basis: 60%;
   flex-grow: 0;
-  padding-bottom: 215px;
+  padding-left: 30px;
+  padding-right:30px;
+  padding-top: 2vh;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 1.30rem;
+  /* background-color: orange; */
+
 }
 
 #container-buttons {
