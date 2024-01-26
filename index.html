@@ -78,8 +78,31 @@
             <img src="./assets/images/profile-picture.png" />
           </div>
           <div id="greetings">
-            <p>
-              My name is Ricardo Gutierrez. I am a software developer based in Montreal, Quebec. I am a passionate and driven individual with a problem-solving mindset. As a lifelong learner, I am committed to continuous learning and growth, constantly seeking opportunities to expand my skill set and contribute to my community. My professional background is in supply chain operations, and I have a deep interest in automation and business process optimization. I possess knowledge of computer science fundamentals and have practical experience in software development. With a deep sense interested in productivity, efficiency, and practical solutions, I am eager to contribute to projects where my business and technical skills can make a positive impact and bring value.            </p>
+            <div class="name-wrapper">
+              <h1>RICARDO GUTIERREZ</h1>
+            </div>
+            <span id="role"><p>Software Developer</p></span>
+            <div id="container-buttons">
+              <a href="mailto:ricardorgvillanueva.com" class="contact-btn"
+                >Contact ME</a
+              >
+              <a
+                class="contact-btn"
+                href="https://drive.google.com/file/d/1kHcjwhzCM5VMN2anwX8CAwjEglKdB8GM/view?usp=sharing"
+              >
+                Resume
+                <svg
+                  class="download-button"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24"
+                  width="24"
+                >
+                  <path
+                    d="M6 20q-.825 0-1.412-.587Q4 18.825 4 18v-3h2v3h12v-3h2v3q0 .825-.587 1.413Q18.825 20 18 20Zm6-4-5-5 1.4-1.45 2.6 2.6V4h2v8.15l2.6-2.6L17 11Z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
             <div id="contact-links-mobile">
               <a
                 class="logo-link"
@@ -131,7 +154,7 @@
         </div>
              <!-- Arrow Down component -->
         <div class="hero-section-bottom">
-          <a class="arrow-down" href="#skill-description">
+          <a class="arrow-down" href="#about">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="80"
@@ -148,6 +171,13 @@
           </a>
         </div>
       </section>
+        <section id="about">
+          <h3>ABOUT</h3>
+          <div id="about-description">
+            <p>
+              I am a software developer based in Montreal, Quebec. I am a passionate and driven individual with a problem-solving mindset. As a lifelong learner, I am committed to continuous learning and growth, constantly seeking opportunities to expand my skill set and contribute to my community. My professional background is in supply chain operations, and I have a deep interest in automation and business process optimization. I possess knowledge of computer science fundamentals and have practical experience in software development. With a deep sense interested in productivity, efficiency, and practical solutions, I am eager to contribute to projects where my business and technical skills can make a positive impact and bring value.            </p>
+          </div>
+        </section>
       <!-- Skills Section -->
       <section id="skill-description" >
         <h3>SKILLS SECTION</h3>
@@ -472,7 +502,6 @@ id="skill" viewBox="-118.513 4.399 540.906 540.906" xmlns="http://www.w3.org/200
           </div>
         </div>
       </section>
-            <!--  Project Section -->
       <section id="project-section">
         <h3>Projects</h3>
         <ul class="projects-container">
@@ -573,7 +602,7 @@ id="skill" viewBox="-118.513 4.399 540.906 540.906" xmlns="http://www.w3.org/200
       <section class="contact-section">
         <div class="contact-description">
           <h3 class="contact-header">Contact</h3>
-          <p>If you have a project in mind where my skills could be of use or if you would like to get in touch with me, please fill out the form below. I will get back to you as soon as possible</p>
+          <p>For any inquiries, please fill out the form.  </p>
         </div>
         <div class="contact-form">
           <form name="contact" data-netlify="true" method="POST" autocomplete="off">
